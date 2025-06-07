@@ -14,13 +14,16 @@ export default {
     },
 
     texto: {
-      type: texto,
+      type: String,
       required: true,
     },
+
+    
   },
   data() {
     return {
-      nombre: texto,
+        nombre: this.texto,
+      
     };
   },
 };
